@@ -70,3 +70,15 @@ for (int i = 0; i < countElements; i++)
 }
 
 Console.WriteLine();
+
+for (int i = 0; i < countElements; i++)
+{
+    Console.WriteLine($"String {i + 1} = {NewArray[i]}");
+}
+if (countElements == 0)
+{
+    Console.WriteLine("New array has no elements");
+}
+
+Console.WriteLine();
+Console.WriteLine("End of the program");
